@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.cabezero{
+background-color: brown;
+}
+.logo{
+    display: flex;
+    font-size: 30px;
+    padding-left: 200px;
+ 
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+.logo p{
+    color:#FFF;
+    padding:20px;
+    font-size:30px;
+    align-self: center;
+    border-right:1px  solid white;
+}
+.texto p{
+border-right:none
+}
+
+.texto-lol{
+    margin-left:170px ;
+    padding-top: 90px;
+    display: flex;
+
+}
+.container{
+    margin-left: 95px;
+}
+
+.container h2{
+    font-size: 59px;
+    margin-top: 10px;
+}
+.container p{
+    font-size: 27px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.container .A{
+    font-size: 20px;
+   margin-top:10px;
+   margin-left:12px;
+}
+.logo-pop{
+    width: 200px;
+    height: 100px;
+    padding-left: 150px;
+    margin-top: 60px;
+ 
+}
+.video{
+    margin-left: 250px;
+    margin-top: 109px;
+}
+
+
+.contenedor-formulario{
+    outline:2px solid #000;
+    max-width: 870px;
+    margin-left: 270px;
+    height: 1210px;
+    background-color:rgb(242, 244, 248);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.texto-forma{
+    padding-left: 265px;
+    font-size: 40px;
+    display: flex;
+    padding-top:1px;
+   
+}
+/*.texto-forma h1{
+    padding-top: 20px;
+}*/
+
+.contenedor-formulario{
+    margin-top: 20px;
+}
+
+.dni{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+}
+.fecha{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 90px;
+}
+.dni input{
+width: 400px;
+height: 55px;
+border: 3px solid #000;
+}
+.fecha input{
+    width: 400px;
+height: 55px;
+border: 3px solid #000;
+font-size: 20px;
+}
+.link-fecha-emision{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.link-fecha-emision a{
+    color:rgb(10, 93, 145);
+}
+.roobot-caja{
+    width: 400px;
+    height: 70px;
+    border:3px solid #000;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+#cheka{
+    width:35px;
+    height: 30px;
+    border:2px solid #000;
+    display: inline-block;
+    font-size: 2em;
+    margin:30px;
+}
+.roobot-caja label{
+    font-size: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.caja-ji{
+    padding-top: 40px;
+    display:flex;
+}
+.caja-ji .o{
+    border:10px solid #000;
+    width: 20px;
+    height: 20px;
+    margin-left:20px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.caja-ji p{
+    font-size:25px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.caja-ji a{
+    text-decoration: none;
+    color:rgb(10, 93, 145);
+    font-weight: bold;
+}
+.cuadro {
+    width: 670px;
+    height: 250px;
+    border-left:brown 10px solid;
+    margin-top:90px;
+    background-color: #FFF;
+}
+.pol p{
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.pol div{
+padding-top: 20px;
+    padding-left: 90px;
+    font-size: 18px;
+} 
+
+
+.consulta-b{
+width: 400px;
+height: 50px;
+border: rgb(104, 103, 103) solid 1px;
+margin-top:50px;
+display: flex;
+align-items: center;
+padding: 10px;
+font-weight: bolder;
+background-color:rgb(235, 231, 231);
+}
+.consulta-b a{
+    text-decoration: none;
+    color:rgb(158, 158, 158);
+    font-size: 22px;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.pol li{
+    padding-top: 10px;
+}
+
+footer{
+    background-color: rgb(70, 64, 64);
+    height: 300px;
+    width: 100%;
+margin-top:110px
+}
+
+.links-footer{
+padding-left: 200px;
+}
+.mono{
+    display: flex;
+    flex-direction: column;
+}
+.p-abajo{
+    display:flex;
+    flex-direction: column;
+padding-left:400px;
+margin-top:-150px;
+}
+/*.p-abajo a{
+    color:#FFF;
+    color:white;
+padding:20px;
+font-size:20px;
+}*/
+.links-footer a{
+color:white;
+padding:20px;
+font-size:30px;
+}
+.parrafo-footer{
+    color:white;
+    padding-left: 200px;
+    padding-top: 90px;
+    font-size:18px;
+}
+
+.parrafo-footer div{
+    margin-top: -50px;
+    width: 1500px;
+    border-top: 1px solid grey;
+}
+.parrafo-footer p{
+    padding-top: 18px;
+}

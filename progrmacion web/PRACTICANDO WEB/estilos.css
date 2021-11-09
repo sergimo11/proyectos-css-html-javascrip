@@ -1,0 +1,64 @@
+
+
+ul
+{
+	list-style:none;
+}
+
+li
+{
+	display: inline-block;
+	width: 70px;
+	color:white;
+	font-family:arial;
+}
+header
+{
+	background: orange;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+
+
+}	
+
+#contenedor
+{
+	background:orange;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-top: 10px;
+}
+
+#puente
+{
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+
+#textos
+{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 10px;
+}
+
+#visita
+{
+	color:white;
+	font-size: 19px;
+}
+
+#leer
+{
+	border:1px solid white;
+	text-decoration: none;
+	margin:10px;
+	padding: 5px 10px;
+	color:white;
+}

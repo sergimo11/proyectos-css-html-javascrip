@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.contenedor{
+    margin-top:60px;
+    margin-left: 200px;
+}
+.contenido-contenedor h1{
+font-size:40px;
+margin-top: -15px;
+}
+
+.input-numericos_uno{
+
+    margin-top: 20px;
+}
+
+
+.input-numericos-dos{
+    margin-top:30px;
+}
+
+.bottones{
+
+margin-top:30px;
+}
+#sumar{
+margin: 20px;
+}
+
+#restar{
+margin: 20px;
+}
+#multiplicar{
+margin: 20px;
+}
+
+#dividir{
+margin: 20px;
+}

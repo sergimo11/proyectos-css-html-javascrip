@@ -1,0 +1,59 @@
+:root{
+    --image1:url(image/185688.jpg);
+    --image2:url(image/1348437.jpg);
+    --image3:url(image/3296326.jpg);
+    --image4:url(image/3296343.jpg);
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+ h1{
+     text-align: center;
+ }
+.contenedor{
+    outline: 2px solid #000;
+    width: 90vh;
+    height: 600px;
+max-width: 600px;
+margin:30px auto;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(4,1fr);
+gap:20px;
+grid-template-areas:
+"p1 p1 p2"
+"p3 p3 p2"
+"p3 p3 p2"
+"p4 p4 p4";
+}
+
+.elemt{
+    font-size: 2rem;
+    color:#fff;
+    text-align: center;
+    background-size: cover;
+    background-position: bottom;
+}
+.elemeto1{
+    background-color: red;
+    grid-area:p1;
+    background-image: var(--image1);
+}
+.elemeto2{
+    background-color:cyan;
+    grid-area: p2;
+    background-image: var(--image2);
+}
+.elemeto3{
+    background-color:orange;
+grid-area: p3;
+background-image: var(--image3);
+}
+.elemeto4{
+    background-color:purple;
+    grid-area: p4;
+    background-image: var(--image4);
+}

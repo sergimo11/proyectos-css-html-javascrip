@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 50px;
+    color:aliceblue;
+    font-weight: bold;
+    text-shadow: 7px 2px 7px #000;
+    cursor: none;
+}
+.contenedor{
+    background-image: url(/minimalism-minimal-art-minimalist-airplane-wallpaper-preview.jpg);
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.div-contenedor{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    padding: 30px 50px;
+    height: 50vh;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0,0,0,0.3)) linear-gradient(rgba(0,0,0,0.3));
+    box-shadow: 7px 7px 60px #000;
+    border:1px solid #000;
+    
+}
+#forma input{
+    margin:20px;
+    width:100%;
+    padding:4px;
+    display: block;
+}
+
+#forma label{
+
+    color: aliceblue;
+    text-transform:uppercase;
+    font-weight: bold;
+    text-shadow: 7px 2px 7px #000;
+}
+
+.botones{
+    margin: 30px;
+    
+}
+.suma{
+  background-color: lightblue;
+  padding:7px;
+  border: none;
+  outline: none;
+  opacity:.8;
+  transition: opacity 0.4s ease;
+}
+.suma:hover{
+    opacity: 1;
+}
+.resta{
+    background-color: lightblue;
+    padding:7px;
+    border: none;
+    outline: none;
+    opacity:.8;
+  transition: opacity 0.4s ease;
+  }
+  .resta:hover{
+    opacity: 1;
+}
+  .multiplicar{
+    background-color: lightblue;
+    padding:7px;
+    border: none;
+    outline: none;
+    opacity:.8;
+  transition: opacity 0.4s ease;
+  }
+  .multiplicar:hover{
+    opacity: 1;
+}
+  .dividir{
+      margin-top:10px;
+    background-color: lightblue;
+    padding:7px;
+    border: none;
+    outline: none;
+    opacity:.8;
+  transition: opacity 0.4s ease;
+  }
+  .dividir:hover{
+    opacity: 1;
+}
+
+#mostrar{
+    color:aliceblue;
+    margin-top:50px;
+    text-align: center;
+    width:180px;
+    background:linear-gradient(rgba(0,0,0,0.3))linear-gradient(rgba(0,0,0,0.3));
+    box-shadow: 7px 7px 60px #000;
+    border-radius: 10px;
+    border:1px solid #000;
+}
+
